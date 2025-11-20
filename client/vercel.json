@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "frameworkPreset": "create-react-app",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" } // 解决SPA路由刷新404问题
+  ]
+}
