@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "调试React应用",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/client/src",
+      "sourceMaps": true
+    }
+  ]
+}
